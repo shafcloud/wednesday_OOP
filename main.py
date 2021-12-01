@@ -8,5 +8,9 @@ class MyDog:
     def walk(self):
         return print(self.name, "is walking")
 
+    def eat(self):
+        return print(self.name, "is eating food!")
+
 dog = MyDog("labrador", "Zelda", 7, "Yellow")
 dog.walk()
+dog.eat()
